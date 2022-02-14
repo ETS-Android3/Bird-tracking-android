@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:visibility="visible"
+    tools:context=".HomeScreen">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="74dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="376dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/settings" />
+
+    <Button
+        android:id="@+id/homescreen_my_observations2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="209dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="377dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:background="@android:color/transparent"
+        android:onClick="Settings"
+        android:text="@string/settings"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/homescreen_found_a_bird"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="197dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="74dp"
+        android:background="@android:color/transparent"
+        android:onClick="Found_A_Bird"
+        android:text="@string/found_bird"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/homescreen_my_categories"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="217dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="54dp"
+        android:background="@android:color/transparent"
+        android:onClick="My_Categories"
+        android:text="@string/my_cat"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/homescreen_my_observations"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="209dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="62dp"
+        android:background="@android:color/transparent"
+        android:onClick="My_Observations"
+        android:text="@string/my_obs"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="73dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="178dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/categories" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="83dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="74dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/binoculars" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="74dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="272dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/myobservations" />
+
+</android.support.constraint.ConstraintLayout>

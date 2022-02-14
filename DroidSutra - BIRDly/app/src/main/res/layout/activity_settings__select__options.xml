@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Settings_Select_Options">
+
+    <Button
+        android:id="@+id/export_observations3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="150dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:text="@string/lang"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/export_observations4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="154dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="152dp"
+        android:background="@android:color/transparent"
+        android:text="@string/toast_gpsp"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/delete_observations"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="152dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="385dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:background="@android:color/transparent"
+        android:onClick="DeleteObservations"
+        android:text="@string/del_obs"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="72dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="396dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/delete_obs" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="71dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="284dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/export" />
+
+    <Button
+        android:id="@+id/export_observations"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="153dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="271dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:background="@android:color/transparent"
+        android:onClick="Export_Observations"
+        android:text="@string/exp_obs"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="71dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/gps_on_off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/export_observations3"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton_de"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DE" />
+
+        <RadioButton
+            android:id="@+id/radioButton_en"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="EN" />
+    </RadioGroup>
+
+    <ToggleButton
+        android:id="@+id/gps_on_off"
+        style="@style/Animation.Design.BottomSheetDialog"
+        android:layout_width="65dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="8dp"
+        android:text="ToggleButton"
+        app:layout_constraintBottom_toTopOf="@+id/export_observations"
+        app:layout_constraintStart_toEndOf="@+id/export_observations4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/back"
+        app:layout_constraintBottom_toTopOf="@+id/export_observations"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/gps_on_off"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:layout_constraintVertical_bias="0.454" />
+
+</android.support.constraint.ConstraintLayout>

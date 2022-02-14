@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:visibility="visible"
+    tools:context=".FAB_Attributes_1">
+
+
+    <ImageButton
+        android:id="@+id/btnNameEntered"
+        android:layout_width="37dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="298dp"
+        android:layout_marginLeft="298dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginBottom="519dp"
+        android:background="@android:color/transparent"
+        android:onClick="FAB_Attribute_1to2"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tick" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="69dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="317dp"
+        android:layout_marginRight="317dp"
+        android:layout_marginBottom="515dp"
+        android:focusableInTouchMode="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bird3" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editText_name"
+        android:layout_width="174dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="514dp"
+        android:capitalize="none"
+        android:ems="10"
+        android:hint="@string/bird_name"
+        android:inputType="textCapWords"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnNameEntered"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="505dp"
+        android:layout_marginBottom="84dp"
+        android:background="@android:color/transparent"
+        android:onClick="FAB_Attribute_1to2"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/nextpng" />
+
+    <TextView
+        android:id="@+id/textbox_size"
+        android:layout_width="323dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="218dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="411dp"
+        android:text="@string/bird_size"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/bird_size" />
+
+    <TextView
+        android:id="@+id/textbox_colour"
+        android:layout_width="332dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="377dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="251dp"
+        android:text="@string/bird_colour"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="36dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="303dp"
+        android:layout_marginRight="303dp"
+        android:layout_marginBottom="342dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sparrow" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="53dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="281dp"
+        android:layout_marginEnd="209dp"
+        android:layout_marginRight="209dp"
+        android:layout_marginBottom="342dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blackbird" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="53dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="245dp"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginRight="113dp"
+        android:layout_marginBottom="342dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/crow" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroupSize"
+        android:layout_width="265dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="317dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:layout_marginBottom="307dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RadioButton
+            android:id="@+id/radioButton_small"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:visibility="visible" />
+
+
+        <RadioButton
+            android:id="@+id/radioButton_medium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5" />
+
+        <RadioButton
+            android:id="@+id/radioButton_large"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="220dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="426dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:layout_marginBottom="192dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

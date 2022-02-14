@@ -1,0 +1,219 @@
+<resources>
+    <string name="app_name">DroidSutra - BIRDly</string>
+    <string name="found_bird">Found a bird</string>
+    <string name="my_cat">MY CATEGORIES</string>
+    <string name="my_obs">MY OBSERVATIONS</string>
+    <string name="bird_size">Select size of the bird</string>
+    <string name="bird_colour">Select primary colour of the bird</string>
+    <string name="bird_loc">Enter Location of the bird</string>
+    <string name="date">Select date</string>
+    <string name="time">Select time</string>
+    <string name="address">Enter Address, City or Zip Code</string>
+    <string name="description">Enter a brief description</string>
+    <string name="notes">Enter a note (Optional)</string>
+    <string name="bird_name">Name of the Bird</string>
+    <string name="successful">Data added successfully</string>
+    <string name="sorry">Sorry!</string>
+    <string name="save_data">Do you want to save this data ? </string>
+    <string name="letsgo">Lets go</string>
+    <string name="category">Category</string>
+    <string name="location">Location</string>
+    <string name="settings">Settings</string>
+    <string name="pop_new_cat">Please enter name of the new category</string>
+
+    <string name="cat_exist"> Category already exists. </string>
+    <string name="cat_suc"> Category successfully added </string>
+    <string name="cat_not_ad"> Category not added </string>
+    <string name="att_plz">Please select an attribute</string>
+    <string name="found_not">Nothing found</string>
+    <string name="plz_enter">Please enter all input fields to proceed</string>
+    <string name="cat_a">Categories</string>
+    <string name="cat_del">Category successfully deleted</string>
+    <string name="cat_does">Selected category does not exist.</string>
+    <string name="cat_sel">Please select an exsisting category</string>
+    <string name="cat_mod_suc">Category successfully modified</string>
+    <string name="cat_sel_ext">Please select an exsisting category</string>
+    <string name="plz_all">Please enter all input fields to proceed.</string>
+
+    <string name="obs_exp">Observations table is exported to the path</string>
+    <string name="toast_ent_newcat">Please enter name of the new category</string>
+    <string name="toast_cat_exist">Category already exists. \nPlease enter a new category</string>
+    <string name="toast_cat_added">Category successfully added</string>
+    <string name="toast_cat_not_added">Category not added</string>
+    <string name="show_msg_cat">Categories</string>
+    <string name="toast_cat_cantdelete">Default Category cannot be deleted</string>
+    <string name="toast_cat_del">Category successfully deleted</string>
+    <string name="toast_cat_dontexist">Selected category doesn\'t exist.\nPlease select an existing category</string>
+    <string name="toast_cat_cantmod">Default Category cannot be modified</string>
+    <string name="toast_cat_mod">Category successfully modified</string>
+    <string name="toast_name">Please enter a name</string>
+    <string name="toast_nobird_found"> were found in the Observations Table. \nPlease fill the attributes manually.</string>
+    <string name="toast_bird_found"> were found in the Observations Table.\nDo you want to fill the attributes from the table?</string>
+    <string name="toast_bird_withname">Birds with name:</string>
+    <string name="toast_nobird_withname">No Birds with name:</string>
+    <string name="toast_autofill">Auto-fill feature</string>
+    <string name="toast_clr">Please select a colour</string>
+    <string name="toast_enterall">Please enter all input fields to proceed.</string>
+    <string name="toast_place">Place</string>
+    <string name="toast_confirm">Confirm action</string>
+    <string name="toast_home">Do you want to return to Home screen?\nUnsaved data may be lost.</string>
+    <string name="toast_yes">Yes</string>
+    <string name="toast_no">No</string>
+    <string name="toast_gps">Please enable your device location</string>
+    <string name="toast_gpsp">GPS\nPermission</string>
+    <string name="toast_err">Error here</string>
+    <string name="toast_gpsps">Do you want to go to Settings page to change GPS Permission?</string>
+
+
+
+    <string name="size">Size</string>
+    <string name="clr">Colour</string>
+    <string name="loc">Location</string>
+    <string name="date1">Date</string>
+    <string name="time1">Time</string>
+    <string name="description1">Description</string>
+    <string name="note">Note</string>
+
+
+
+
+    //Maps activity strings
+    <string name="sel_loc">Select location</string>
+    <string name="loc_at">You are located at:</string>
+    <string name="click_yes"> Click Yes to set this location as the location of citation</string>
+    <string name="click_no"> Click No to choose the location by dragging the marker or by entering the location</string>
+    <string name="plz_enter_maps"> Please enter an address,city or Zip code </string>
+
+    //View observations strings
+    <string name="disp_all"> Displaying all observations </string>
+    <string name="plz_ent_att"> Please enter value of the selected attribute</string>
+    <string name="catg"> Category</string>
+    <string name="wiki"> Link: https://en.wikipedia.org/wiki/</string>
+    <string name="lines"> --------------------------------------------------------------------------------</string>
+
+    //Settings strings
+    <string name="gps_e"> GPS is enabled</string>
+    <string name="gps_d"> GPS is disabled</string>
+    <string name="no_obs_found"> No observations found</string>
+    <string name="cant_write"> Cannot write</string>
+    <string name="del_obs"> Delete Observations</string>
+    <string name="del_obs_6months"> Are you sure you want to delete observations less than 6 months?</string>
+    <string name="obs_on">observations on or before</string>
+    <string name="no_old_obs">No old observations found</string>
+    <string name="old_obs_del">Old observations are deleted</string>
+    <string name="exp_obs">Export Observations</string>
+
+
+
+    //buttons
+    <string name="ok">OK</string>
+    <string name="yes_auto">Yes, Auto-fill attributes</string>
+
+
+    //data base helper
+    <string name="obs">Observation</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="name">Name</string>
+
+    <string name="view_obs">View observations based on</string>
+
+    <string name="att_value">Attribute value!</string>
+    <string name="cat_name">Enter name of category</string>
+    <string name="new_cat">Enter new name of the category</string>
+    <string name="add_cat">Add Category</string>
+    <string name="cat_mod">Modify Category</string>
+    <string name="del_cat">Delete Category</string>
+    <string name="view_cat">View Categories</string>
+    <string name="view_all_ob">View all Observations</string>
+    <string name="lang">Application Language</string>
+
+
+
+
+    <string name="small_bird">Small</string>
+    <string name="large_bird">Large</string>
+    <string name="medium_bird">Medium</string>
+    <string name="google_maps_key">AIzaSyCpbT6CZS--geDelLhmaHGkjoCKv5XXN5Y</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="FAB_Colours">
+        <item>Please select</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Violet</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Black</item>
+        <item>White</item>
+    </string-array>
+
+
+    <string-array name="Birds_Suggestions">
+        <item>Rhea</item>
+        <item>Duck</item>
+        <item>Goose</item>
+        <item>Waterfowl</item>
+        <item>Pheasant</item>
+        <item>Flamingo</item>
+        <item>Pigeon</item>
+    </string-array>
+
+
+
+    <string-array name="OBS_View_Obs_Options">
+        <item>Select an Attribute</item>
+        <item>Name</item>
+        <item>Location</item>
+        <item>Size</item>
+        <item>Colour</item>
+        <item>Date</item>
+        <item>Time</item>
+        <item>Category</item>
+    </string-array>
+    <string name="title_activity_cat__delete__category">CAT_Delete_Category</string>
+    <string name="loc_not_found">Entered location is not found.\nPlease try again.</string>
+    <string name="toast_date_format">Please enter date in the format - dd/MM/yyyy</string>
+    <string name="toast_time_format">Please enter time in the format - hh:mm</string>
+    <string name="toast_cat_cantadd">Default Category cannot be added</string>
+</resources>

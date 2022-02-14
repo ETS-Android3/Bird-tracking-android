@@ -1,0 +1,22 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ambilwarna_spacer"
+        android:layout_marginLeft="@dimen/default_gap"
+        android:layout_marginTop="@dimen/default_gap"
+        android:orientation="vertical"
+        android:overScrollMode="always"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="horizontal|vertical|none"
+        android:verticalScrollbarPosition="right"
+        android:visibility="visible"></LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FAB_Successful">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="286dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="425dp"
+        android:text="@string/successful"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="125dp"
+        android:layout_height="251dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="234dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/manwithbird" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="513dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tick" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Settings_Select_Options">
+
+    <Button
+        android:id="@+id/export_observations3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="144dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="235dp"
+        android:layout_marginRight="235dp"
+        android:layout_marginBottom="519dp"
+        android:background="@android:color/transparent"
+        android:text="@string/lang"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/export_observations4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="144dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginEnd="235dp"
+        android:layout_marginRight="235dp"
+        android:layout_marginBottom="410dp"
+        android:background="@android:color/transparent"
+        android:text="@string/toast_gpsp"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/delete_observations"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="177dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="428dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginRight="93dp"
+        android:layout_marginBottom="153dp"
+        android:background="@android:color/transparent"
+        android:onClick="DeleteObservations"
+        android:text="@string/del_obs"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="83dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginRight="296dp"
+        android:layout_marginBottom="153dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/delete_obs" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="83dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginRight="296dp"
+        android:layout_marginBottom="281dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/export" />
+
+    <Button
+        android:id="@+id/export_observations"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="179dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:layout_marginBottom="282dp"
+        android:background="@android:color/transparent"
+        android:onClick="Export_Observations"
+        android:text="@string/exp_obs"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="211dp"
+        android:layout_marginLeft="211dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="507dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton_de"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DE" />
+
+        <RadioButton
+            android:id="@+id/radioButton_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="EN" />
+    </RadioGroup>
+
+    <ToggleButton
+        android:id="@+id/gps_on_off"
+        style="@style/Animation.Design.BottomSheetDialog"
+        android:layout_width="65dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="211dp"
+        android:layout_marginLeft="211dp"
+        android:layout_marginTop="202dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginRight="135dp"
+        android:layout_marginBottom="410dp"
+        android:text="ToggleButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="75dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="303dp"
+        android:layout_marginLeft="303dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="410dp"
+        android:background="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

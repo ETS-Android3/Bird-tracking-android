@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="letsgo">Los geht\'s</string>
+    <string name="app_name">Droid Sutra - Bird Tracking</string>
+    <string name="found_bird">Einen Vogel gefunden</string>
+    <string name="my_cat">Meinen Kategorien</string>
+    <string name="my_obs">Meine Beobachtungen</string>
+    <string name="bird_size">Wählen Sie die Größe des Vogels</string>
+    <string name="bird_colour">Wählen Sie die Primärfarbe des Vogels</string>
+    <string name="bird_loc">Ort eingeben</string>
+    <string name="date">Datum auswählen</string>
+    <string name="time"> Zeit wählen</string>
+    <string name="address">Geben Sie Adresse, Stadt oder PLZ ein.</string>
+    <string name="description">Geben Sie eine kurze Beschreibung ein</string>
+    <string name="notes">Eine Hinweis eingeben (optional)</string>
+    <string name="name">Name</string>
+    <string name="category">Kategorie</string>
+    <string name="location">Ort</string>
+    <string name="view_all_ob">Alle Beobachtungen anzeigen</string>
+    <string name="lang">Anwendungs sprache</string>
+    <string name="settings">Einstellungen</string>
+    <string name="pop_new_cat">Bitte geben Sie den Namen der neuen Kategorie ein.</string>
+
+
+
+
+
+
+    <string name="bird_name">Name des Vogels</string>
+    <string name="successful">Daten erfolgreich hinzugefügt</string>
+    <string name="sorry">Entschuldigung</string>
+    <string name="save_data">Möchten Sie diese Daten speichern?</string>
+
+    <string name="view_obs">Beobachtungen anzeigen </string>
+    <string name="att_value">Attributwert!</string>
+    <string name="cat_name">Geben Sie den Namen der Kategorie ein</string>
+    <string name="new_cat">Geben Sie den neuen Namen der Kategorie ein</string>
+    <string name="add_cat">Kategorie hinzufügen</string>
+    <string name="cat_mod">Kategorie ändern</string>
+    <string name="del_cat">Kategorie löschen</string>
+    <string name="view_cat">Kategorien anzeigen</string>
+
+
+    <string name="small_bird">Klein</string>
+    <string name="large_bird">Groß</string>
+    <string name="medium_bird">Mittel</string>
+
+    <string-array name="FAB_Colours">
+        <item>Bitte wählen Sie</item>
+        <item>Rot</item>
+        <item>Grün</item>
+        <item>Blau</item>
+        <item>Violett</item>
+        <item>Gelb</item>
+        <item>Orange</item>
+        <item>Schwarz</item>
+        <item>Weiß</item>
+    </string-array>
+    <string-array name="OBS_View_Obs_Options">
+        <item>Wählen Sie ein Attribut</item>
+        <item>Name</item>
+        <item>Ort</item>
+        <item>Größe</item>
+        <item>Farbe</item>
+        <item>Datum</item>
+        <item>Zeit</item>
+        <item>Kategorie</item>
+    </string-array>
+
+    <string name="title_activity_cat__delete__category">CAT_Delete_Category</string>
+    <string name="cat_exist">Kategorie existiert bereits </string>
+    <string name="cat_suc">Kategorie erfolgreich hinzugefugt</string>
+    <string name="cat_not_ad">"Kategorie nicht hinzugefugt "</string>
+    <string name="att_plz">Bitte wahlen Sie ein attribut</string>
+    <string name="found_not">Nichts gefünden</string>
+    <string name="plz_enter">Bitte füllen Sie alle Eingabefelder aus, um fortzufahren</string>
+    <string name="cat_a">Kategorie</string>
+    <string name="cat_del">Kategorie erfolgreich gelöscht</string>
+    <string name="cat_does">Die ausgewählte Kategorie existiert nicht.</string>
+    <string name="cat_sel">Please select an exsisting category</string>
+    <string name="cat_mod_suc">Kategorie erfolgreich geändert</string>
+    <string name="cat_sel_ext">Bitte wählen Sie eine bestehende Kategorie aus</string>
+    <string name="plz_all">Bitte füllen Sie alle Eingabefelder aus, um fortzufahren.</string>
+    <string name="obs_exp">Die Beobachtungstabelle wird in den Pfad exportiert</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="toast_ent_newcat">Bitte geben Sie den Namen der neuen Kategorie ein</string>
+
+    <string name="toast_cat_exist">Kategorie existiert bereits. \nBitte geben Sie eine neue Kategorie ein</string>
+    <string name="toast_cat_added">Kategorie erfolgreich hinzugefügt</string>
+    <string name="toast_cat_not_added">Kategorie nicht hinzugefügt</string>
+    <string name="show_msg_cat">Kategorien</string>
+    <string name="toast_cat_cantdelete">Die Standardkategorie kann nicht gelöscht werden</string>
+    <string name="toast_cat_del">Kategorie erfolgreich gelöscht</string>
+    <string name="toast_cat_dontexist">Ausgewählte Kategorie existiert nicht, \nbitte wählen Sie eine bestehende Kategorie aus.</string>
+    <string name="toast_cat_cantmod">Die Standardkategorie kann nicht geändert werden</string>
+    <string name="toast_cat_mod">Kategorie erfolgreich geändert</string>
+    <string name="toast_name">Bitte geben Sie einen Namen ein</string>
+    <string name="toast_nobird_found"> wurden in der Beobachtungstabelle gefunden. \nBitte füllen Sie die Attribute manuell aus.</string>
+    <string name="toast_bird_found"> in der Beobachtungstabelle gefunden wurden, \n möchten Sie die Attribute aus der Tabelle füllen?</string>
+    <string name="toast_bird_withname">Vögel mit Namen:</string>
+    <string name="toast_nobird_withname">Keine Vögel mit Namen:</string>
+    <string name="toast_autofill">Automatische Ausfüllfunktion</string>
+    <string name="toast_clr">Bitte wählen Sie eine Farbe aus</string>
+    <string name="toast_enterall">Bitte geben Sie alle Eingabefelder ein, um fortzufahren.</string>
+    <string name="toast_place">Ort</string>
+    <string name="toast_confirm">Aktion bestätigenn</string>
+
+    <string name="toast_home">Möchten Sie zu Homescreen zurückkehren? Nicht gespeicherte Daten können verloren gehen..</string>
+    <string name="toast_yes">Ja</string>
+    <string name="toast_no">Nein</string>
+    <string name="toast_gps">Bitte aktivieren Sie Ihren Gerätestandort.</string>
+    <string name="toast_gpsp">GPS Berechtigung</string>
+    <string name="toast_gpsps">Möchten Sie auf der Seite Einstellungen die GPS-Berechtigung ändern?</string>
+    <string name="toast_err">Fehler hier</string>
+    <string name="size">Größe</string>
+    <string name="clr">Farbe</string>
+    <string name="loc">Ort</string>
+    <string name="date1">Datum</string>
+    <string name="time1">Zeit</string>
+    <string name="description1">Beschreibung</string>
+    <string name="note">Hinweis</string>
+
+    //Maps activity strings
+    <string name="sel_loc">Standort auswählen</string>
+    <string name="loc_at">Standort:</string>
+    <string name="click_yes"> Klicken Sie auf Ja, um diese Position als Ort für die Zitierung festzulegen.</string>
+    <string name="click_no"> Klicken Sie auf Nein, um den Standort durch Ziehen der Markierung oder durch Eingabe des Standorts auszuwählen.</string>
+    <string name="plz_enter_maps"> Bitte geben Sie eine Adresse, einen Ort oder eine Postleitzahl ein. </string>
+
+    //View observation strings
+    <string name="disp_all"> Anzeige aller Beobachtungen </string>
+    <string name="plz_ent_att"> Bitte geben Sie den Wert des ausgewählten Attributs ein.</string>
+    <string name="catg"> Kategorie</string>
+    <string name="wiki"> Link: https://de.wikipedia.org/wiki/</string>
+    <string name="lines"> --------------------------------------------------------------------------------</string>
+
+    //Settings strings
+    <string name="gps_e"> GPS ist aktiviert</string>
+    <string name="gps_d"> GPS ist deaktiviert</string>
+    <string name="no_obs_found"> Keine Beobachtungen gefunden</string>
+    <string name="cant_write"> Kann nicht schreiben</string>
+    <string name="del_obs"> Beobachtungen löschen</string>
+    <string name="del_obs_6months"> Sind Sie sicher, dass Sie Beobachtungen löschen möchten, die weniger als 6 Monate zurückliegen?</string>
+    <string name="obs_on">Beobachtungen am oder vor dem</string>
+    <string name="no_old_obs">Keine alten Beobachtungen gefunden</string>
+    <string name="old_obs_del">Alte Beobachtungen werden gelöscht.</string>
+    <string name="exp_obs">Beobachtungen exportieren</string>
+
+
+    //buttons
+    <string name="ok">OK</string>
+    <string name="yes_auto">Ja, Attribute automatisch ausfüllen</string>
+
+    //Database helper
+    <string name="obs">Beobachtung</string>
+    <string name="loc_not_found">Der eingegebene Ort wurde nicht gefunden.\nBitte versuche es erneut.</string>
+    <string name="toast_date_format">Bitte geben Sie das Datum im Format ein - tt/MM/jjjj</string>
+    <string name="toast_time_format">Bitte geben Sie das Zeit im Format ein - ss:mm</string>
+    <string name="toast_cat_cantadd">Die Standardkategorie kann nicht hinzugefügt werden</string>
+
+
+</resources>

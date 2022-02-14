@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FAB_ValidateData">
+
+
+    <TextView
+        android:id="@+id/details_entered"
+        android:layout_width="325dp"
+        android:layout_height="290dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:text="@string/save_data"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnEditData"
+        android:layout_width="61dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="449dp"
+        android:background="@android:color/transparent"
+        android:onClick="EditData"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/edit1" />
+
+    <ImageButton
+        android:id="@+id/button_add"
+        android:layout_width="76dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="219dp"
+        android:layout_marginLeft="219dp"
+        android:layout_marginTop="449dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tick1" />
+
+
+</android.support.constraint.ConstraintLayout>

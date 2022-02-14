@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".CAT_Select_Options">
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="83dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="448dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/categories" />
+
+    <Button
+        android:id="@+id/btnViewCategories"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="197dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="74dp"
+        android:background="@android:color/transparent"
+        android:text="@string/view_cat"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/homescreen_found_a_bird4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="197dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="74dp"
+        android:background="@android:color/transparent"
+        android:onClick="Delete_Category_Activity"
+        android:text="@string/del_cat"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="83dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="320dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/delete_category" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="83dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="204dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/edit" />
+
+    <Button
+        android:id="@+id/homescreen_found_a_bird3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="197dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="74dp"
+        android:background="@android:color/transparent"
+        android:onClick="Modify_Category_Activity"
+        android:text="@string/cat_mod"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/homescreen_found_a_bird2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="197dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="74dp"
+        android:background="@android:color/transparent"
+        android:onClick="Add_Category_Activity"
+        android:text="@string/add_cat"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="83dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="74dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/addcategory" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,5 @@
+name: ISEE 2019
+markdown: kramdown
+baseurl: /isee2019-DroidSutra
+permalink: /blog/:year/:month/:day/:title/
+theme: jekyll-theme-minimal
